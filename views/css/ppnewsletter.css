@@ -1,0 +1,215 @@
+/**
+ * 2017-2018 PrestaPatron
+ *
+ * PrestaPatron Announcement Block
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    PrestaPatron
+ *  @copyright 2017-2018 PrestaPatron
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+*/
+
+
+#list-builder {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    display: none;
+    z-index: 999;
+}
+
+#popup-box {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #333;
+    width: 100%;
+    max-width: 600px;
+/*     padding: 30px; */    
+    display: none;
+    z-index: 999;
+}
+
+#popup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    width: 20px;
+    z-index: 9999;
+}
+
+#popup-box h1 {
+    margin: 0;
+    z-index: 999;
+}
+
+#popup-box form {
+    margin-bottom: 0px;
+    z-index: 999;
+}
+
+#popup-box input {
+    padding: 10px;
+    border: 1px solid #333;
+    width: 100%;
+    z-index: 999; 
+    margin: 10px;
+}
+
+#popup-box button {
+    margin-top: 20px;
+    /* border: 1px solid #333; */
+    background: #FF6347;
+    z-index: 999;
+    padding: 10px 20px;
+    color: #ffffff;
+    width: 100%;
+    margin: 10px;
+}
+
+.right-col {
+	padding: 30px;
+}
+
+.left-col {
+	padding: 0;
+	margin: 0;
+}
+
+.left-image  {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*Type 2 Styles */
+
+.type2 {
+    border-top: 10px solid #FF6347;
+}
+
+.type2#popup-box {    
+    max-width: 500px;
+}
+
+.type2#popup-box input {
+     width: 70%;
+     float: left; 
+     margin: 0;
+}
+
+.type2#popup-box button {  
+    width: 25%;
+    float: left; 
+    margin:  0;
+}
+
+
+.spam {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 30px;
+    color: #000;
+}
+
+/* Type 3 Styles  */
+
+.type3#popup-box .top-row {
+    padding: 30px;
+/*     border-bottom: 1px solid #ddd; */
+}
+
+.type3#popup-box .bottom-row {
+    padding: 30px;
+   /*  border-bottom: 1px solid #ddd; */
+}
+
+
+.type3#popup-box .left-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.type3#popup-box {    
+    max-width: 400px;
+}
+
+#popup-form {
+    text-align: center;
+}
+
+.type3#popup-box input {
+     width: 90%;   
+     margin: 0;
+     text-align: center;
+}
+
+.type3#popup-box button {  
+    width: 90%;   
+    margin-top: 20px;
+    text-align: center
+}
+
+
+
+/* Newsletter styling Fixed */
+
+.newsletter-banner {
+    padding: 20px;
+}
+.alert-close {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: normal;
+  height: 22px;
+  line-height: 24px;
+  position: absolute;
+  right: 11px;
+  text-align: center;
+  top: 9px;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  width: 22px;
+}
+
